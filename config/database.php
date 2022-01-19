@@ -100,7 +100,7 @@ return [
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
             'options' => array(
-                'db' => 'admin'
+                'database' => env('DB_AUTHENTICATION_DATABASE', 'admin'),
             )
         ],
 
